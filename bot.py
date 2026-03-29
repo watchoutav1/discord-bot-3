@@ -15,7 +15,7 @@ import feedparser
 # ═══════════════════════════════════════════════════════
 #  CONFIG  ── edit before running, or set env vars
 # ═══════════════════════════════════════════════════════
-TOKEN          = TOKEN = "MTQ2OTIyNjI0NTI4Mjg1NzExNA.Gnlxor.dcyG3nydvtRDvp5YZUpngGxQoIQcsphphDyx0g"
+TOKEN = os.environ.get("TOKEN")
 RSS_FEED_URL   = RSS_FEED_URL = "https://rss.app/feeds/YCoPXpqs4XeLV87I.xml"
 RSS_CHANNEL_ID =RSS_CHANNEL_ID = 1419941517103075454
 DATA_FILE      = "economy.json"
